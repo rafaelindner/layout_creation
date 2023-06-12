@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tarefas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <img src="img/usuario.png" alt="Usuário">
+            <h2>Nome do Usuário</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p>
+            <p>elit. Est eos reiciendis suscipit vel aut ut, </p>
+            <p>quisquam itaque natus ducimus perferendis </p>
+            <p> obcaecati ea quos illo impedit dolor </p>
+            <p>tenetur officiis possimus deleniti.</p>
+            <ul class="menu-list">
+                <li><a href="default.html">Página Inicial</a></li>
+                <li><a href="index.html">Tarefas</a></li>
+                <li><a href="info.html">Meus Dados</a></li>
+                <li><a href="thanks.html">Thanks ;)</a></li>
+            </ul>
+        </div>
+        <div class="task-list">
+            <h2>Lista de Tarefas</h2>
+            <div class="task-tables">
+                <div class="table-container">
+                    <div class="card">
+                        <h3>Dia</h3>
+                        <table id="table-dia">
+                            <caption>Tarefas do Dia</caption>
+                            <thead>
+                                <tr>
+                                    <th>Tarefas</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tarefa 1</td>
+                                    <td><button class="btn-remove">Remover</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Tarefa 2</td>
+                                    <td><button class="btn-remove">Remover</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Tarefa 3</td>
+                                    <td><button class="btn-remove">Remover</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="form-container">
+                            <input type="text" id="input-tarefa-dia" placeholder="Digite uma nova tarefa">
+                            <button id="btn-add-dia">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-container">
+                    <div class="card">
+                        <h3>Noite</h3>
+                        <table id="table-noite">
+                            <caption>Tarefas da Noite</caption>
+                            <thead>
+                                <tr>
+                                    <th>Tarefas</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tarefa 1</td>
+                                    <td><button class="btn-remove">Remover</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Tarefa 2</td>
+                                    <td><button class="btn-remove">Remover</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Tarefa 3</td>
+                                    <td><button class="btn-remove">Remover</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="form-container">
+                            <input type="text" id="input-tarefa-noite" placeholder="Digite uma nova tarefa">
+                            <button id="btn-add-noite">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
